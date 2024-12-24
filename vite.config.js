@@ -8,6 +8,6 @@ export default defineConfig({
     'process.env': {} // Ensures process.env is defined in the browser
   },
   build: {
-    outDir: 'build', // Change 'dist' to 'build'
+    outDir: 'dist', // Change 'dist' to 'build'
   },
 })
